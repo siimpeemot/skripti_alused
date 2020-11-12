@@ -7,3 +7,21 @@ apt-get install git
 git config --global user.name "ees.perenimi"
 git config --global user.email kasutaja@domeen
 git config --global core.editor nano
+
+3. Kasutamine
+
+a. Alguses AINULT 1 kord kataloogis, kus planeerime skripti hoida ja muuta
+
+git init
+
+b. Iga failiga - eeldusel, et fail on juba olemas ja lisatud sisu ja salvestatud
+
+git status
+git add <failinimi>
+git commit -m "muudatuse kirjeldus"
+
+c. Muudatuste ajaloo jälgimine
+
+git log
+git show commit_hash
+
