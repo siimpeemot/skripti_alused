@@ -25,3 +25,15 @@ c. Muudatuste ajaloo jälgimine
 git log
 git show commit_hash
 
+4. Remote github.com
+
+a. Loo github.com lehel repositoorium
+
+b. Loo ühendus github repositooriumiga
+
+git remote add origin https://github.com/siimpeemot/skripti_alused.git
+
+c. (iga muudatuse) korral lükka kohalik ajalugu githubi
+
+git push -u origin master
+
